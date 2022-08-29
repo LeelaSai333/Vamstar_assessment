@@ -7,19 +7,19 @@ a
 .example a 
 div a
 ```
-- [A] `.example a`
+- [x] `.example a`
 - [ ] `div a`
 - [ ] `a`
 - [ ] `ul li a`
 
 Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
-- [A] `a[title]{...}`
+- [x] `a[title]{...}`
 - [ ] `a > title {...}` 
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
 
 Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
-- [A] `a[title]`
+- [x] `a[title]`
 - [ ] `a > title` 
 - [ ] `a=title` 
 - [ ] `a.title`
@@ -28,7 +28,7 @@ Q4. CSS grid and flexbox are now becoming a more popular way to create page layo
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 - [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
-- [A] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+- [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
 
 Q5. What element(s) do the following selectors match to?
 ```css
@@ -47,7 +47,7 @@ Q5. What element(s) do the following selectors match to?
 - [ ] ```markdown
 They all target the same nav element. ```
 
-- [A] ```markdown
+- [x] ```markdown
 1. An element with an class of "nav"
 2. A nav element
 3. An element with a id of "nav"``` 
