@@ -52,8 +52,7 @@ They all target the same nav element. ```
 2. A nav element
 3. An element with a id of "nav"``` 
 
-- [ ]
-```markdown
-1. An element with an class of "nav" 2. A nav element
-3. An div with a id of "nav"
-```
+- [ ] ```markdown
+1. An element with an class of "nav" 
+2. A nav element
+3. An div with a id of "nav"```
