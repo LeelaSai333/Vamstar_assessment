@@ -14,26 +14,17 @@ axios.get(url)
         const articles = []
         $('h4',html).each(function(){
             const title = $(this).text()
-            // console.log(title)
-            $('.quiet',html).each(function(){
-                const date = $(this).text().split('-')[0]
-                // console.log(date)
-                $('.no-print',html).each(function(){
-                    const link = $(this).find('a').attr('href')
-                    
-                    console.log(link)
-                })
-                // articles.push({
-                //     title,
-                //     date
-                // })
-                // console.log(articles)
+            articles.push({
+                title
             })
-            
         })
-        
-        
-
+        $('.quiet',html).each(function(){
+            const date = $(this).text().split('-')[0]
+            articles.push({
+                date
+            })
+        }) 
+        console.log(articles)   
     })
     .catch(err => console.log(err))
 
